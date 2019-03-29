@@ -49,7 +49,8 @@ def run
       when user_input "help"
         help
         else 
-          exit_jukebox
+          puts "Please enter a command:"
         end
       end
+    end
    
