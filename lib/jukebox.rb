@@ -44,7 +44,7 @@ def run
   when user_input == "list"
     list
     when user_input == "play"
-      play(songs)
+      play
       when user_input == "help"
         help
         else 
