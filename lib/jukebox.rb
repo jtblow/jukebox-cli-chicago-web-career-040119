@@ -49,3 +49,5 @@ def run
         help
         until user_input == "exit"
           exit_jukebox
+        end
+      end
