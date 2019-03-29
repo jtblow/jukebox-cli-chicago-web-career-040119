@@ -40,7 +40,6 @@ def run
   help
   puts "Please enter a command:"
   user_input = gets.chomp
-  until user_input == "exit"
   case start
   when user_input == "list"
     list
