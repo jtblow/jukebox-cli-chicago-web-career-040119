@@ -47,5 +47,5 @@ def run
       play(songs)
       when user_input "help"
         help
-        when user_input == "exit"
+        until user_input == "exit"
           exit_jukebox
