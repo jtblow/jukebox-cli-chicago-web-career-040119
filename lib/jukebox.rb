@@ -45,7 +45,7 @@ def run
     list
     when user_input == "play"
       play(songs)
-      when user_input "help"
+      when user_input == "help"
         help
         else 
           puts "Please enter a command:"
