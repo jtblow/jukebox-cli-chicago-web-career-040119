@@ -40,12 +40,12 @@ def run
   help
   puts "Please enter a command:"
   user_input = gets.chomp
-  until user_input == "exit"
-  if user_input == "list"
+  until user_input == 'exit'
+  if user_input == 'list'
     list
-    if user_input == "play"
+    if user_input == 'play'
       play
-      if user_input == "help"
+      if user_input == 'help'
         help
         else 
           puts "Please enter a command:"
