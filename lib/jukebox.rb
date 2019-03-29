@@ -40,6 +40,7 @@ def run
   help
   puts "Please enter a command:"
   user_input = gets.chomp
+  until user_input == "exit"
   case start
   when user_input == "list"
     list
@@ -47,7 +48,8 @@ def run
       play(songs)
       when user_input "help"
         help
-        until user_input == "exit"
+        else 
           exit_jukebox
         end
+      end
    
