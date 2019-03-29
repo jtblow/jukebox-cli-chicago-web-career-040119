@@ -40,4 +40,5 @@ def run
   help
   puts "Please enter a command:"
   user_input = gets.chomp
-  case
+  case start
+  
