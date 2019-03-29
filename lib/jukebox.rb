@@ -21,3 +21,13 @@ end
 def list(songs)
   puts songs
 end
+
+def play (songs)
+  puts "Please enter a song name or number:"
+  user_response = gets.chomp 
+  if songs.include?(user_response)
+    puts "Playing #{user_response}"
+  else puts "Invalid input, please try again"
+end
+end
+end
