@@ -22,7 +22,7 @@ def list(songs)
   puts songs
 end
 
-def play (songs)
+def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp 
   if songs.include?(user_response) 
@@ -41,4 +41,11 @@ def run
   puts "Please enter a command:"
   user_input = gets.chomp
   case start
-  
+  when user_input == "list"
+    list
+    when user_input == "play"
+      play(songs)
+      when user_input "help"
+        help
+        when user_input == "exit"
+          exit_jukebox
