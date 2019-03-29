@@ -50,7 +50,4 @@ def run
         until user_input == "exit"
           exit_jukebox
         end
-      end
-    end
-  end
-end
+   
