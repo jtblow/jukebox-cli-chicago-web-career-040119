@@ -40,16 +40,17 @@ def run
   help
   puts "Please enter a command:"
   user_input = gets.chomp
-  case start
-  when user_input == "list"
+  until user_input == "exit"
+  if user_input == "list"
     list
-    when user_input == "play"
+    if user_input == "play"
       play
-      when user_input == "help"
+      if user_input == "help"
         help
         else 
           puts "Please enter a command:"
         end
+        exit_jukebox
       end
     
    
