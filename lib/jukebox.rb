@@ -37,23 +37,7 @@ def exit_jukebox
 end
 
 def run 
-  help
-  puts "Please enter a command:"
-  user_input = gets.chomp
-  until user_input == 'exit'
-  if user_input == 'list'
-    list
-    if user_input == 'play'
-      play
-      if user_input == 'help'
-        help
-        else 
-          puts "Please enter a command:"
-        end
-        exit_jukebox
-      end
-    end
-  end
-end
+  
+ 
     
    
